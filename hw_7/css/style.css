@@ -1,0 +1,216 @@
+html {
+    box-sizing: border-box;
+}
+*,*::before,*::after {
+    box-sizing: inherit;
+}
+.container{
+    margin: 0 auto;
+    width: 940px;
+}
+header.container {
+    margin-bottom: 124px;
+}
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    min-height: 50px;
+    align-items: center;
+}
+.logo {
+    display: block;
+    font-size: 25px;
+    text-decoration: none;
+    color: #fed136;
+    font-style: oblique;
+    font-family: 'Wisdom Script';
+}
+.site-navigation {
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    width: 491px;
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    list-style: none;
+}
+.navigation-list-item {
+    display: block;
+    font-family: 'Montserrat';
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.navigation-list-item:hover {
+    color: #fed136;
+}
+.headline-title {
+    margin: 0;
+    text-align: center;
+    margin-bottom: 80px;
+}
+.title-item {
+    font-family: 'Roboto';
+    margin: 0;
+    color: #777777;
+    font-size: 16px;
+}
+.title-headline {
+    font-family: 'Montserrat';
+    margin: 0;
+    padding: 0;
+    color: #767676;
+    font-size: 24px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.title-headline:hover {
+    color: black;
+    font-weight: bold;
+}
+.section-title {
+    font-family: 'Montserrat';
+    margin: 0;
+    color: #222222;
+    font-weight: bold;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+.title-p {
+    margin: 0;
+    font-size: 18px;
+    color: grey;
+}
+.features {
+    padding-bottom: 120px;
+}
+.features-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+.features-list-item {
+    width: 290px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+.features-list-item::before {
+    content: "";
+    display: block;
+    width: 75px;
+    height: 75px;
+    background-repeat: no-repeat;
+}
+.features-list-item.icon-1::before {
+    background-image: url("../img/icons/icon-1.png");
+    margin: 0 auto;
+}
+.features-list-item.icon-2::before {
+    background-image: url("../img/icons/icon-2.png");
+    margin: 0 auto;
+}
+.features-list-item.icon-3::before {
+    background-image: url("../img/icons/icon-3.png");
+    margin: 0 auto;
+}
+.features-list-item.icon {
+    margin: 0;
+}
+.container-form {
+    background-image: url("../img/map.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 675px;
+    padding-top: 92px;
+}
+.form-headline {
+    margin: 0;
+    font-family: 'Montserrat';
+    color:#ffffff;
+    font-size: 40px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.form-descr {
+    margin: 0;
+    color: #777777;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 76px;
+    font-style: oblique;
+}
+.form-filter-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 455px;
+}
+.filter-check {
+width: 455px;
+height: 50px;
+background-color: #ffffff;
+color: #bbbbbb;
+font-family: 'Montserrat';
+text-transform: uppercase;
+font-weight: bold;
+margin-bottom: 30px;
+text-indent: 20px;
+}
+.textarea-item {
+    width: 455px;
+    height: 210px;
+    background-color: #ffffff;
+    color: #bbbbbb;
+    font-family: 'Montserrat';
+    text-transform: uppercase;
+    font-weight: bold;
+    text-indent: 20px;
+    padding-top: 20px;
+}
+.filter-item {
+    width: 455px;
+}
+.filter {
+    display: flex;
+    justify-content: space-between;
+}
+.filter-check:nth-child(3n) {
+    margin-bottom: 0;
+}
+.filter {
+    margin-bottom: 26px;
+}
+button {
+   display: block;
+   font-family: 'Montserrat';
+   margin: 0 auto;
+   padding: 0;
+   width: 240px;
+   height: 64px;
+   color: #ffffff;
+   background-color: #fed136;
+   text-transform: uppercase;
+   border: none;
+   font-weight: bold;
+   font-size: 18px;
+}
+button:hover {
+    background-color: antiquewhite;
+}
+.title-form input[required]:invalid,
+.title-form textarea[required]:invalid {
+border: 2px solid #ec0303;
+}
+.title-form input[required]:valid,
+.title-form:textarea[required]:valid {
+    border: 2px solid #008000;
+}
+
+
